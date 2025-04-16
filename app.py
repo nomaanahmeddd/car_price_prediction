@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the model
-model = joblib.load("D:\Data Analysis\car_price_model.pkl")
+model = joblib.load("car_price_model.pkl")
 
 st.title("🚗 Car Price Prediction App")
 
